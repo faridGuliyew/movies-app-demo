@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "881110624724",
+    "project_id": "filmsappadvanced",
+    "storage_bucket": "filmsappadvanced.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:881110624724:android:291123085c926f7ed40e41",
+        "android_client_info": {
+          "package_name": "com.example.moviesappadvanced"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "881110624724-vbp70jjqlm97jh9h276r6g6mijunkpkt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHFjKT_tqSKGV19_JVxzUuOgU-rgfuaG0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "881110624724-vbp70jjqlm97jh9h276r6g6mijunkpkt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

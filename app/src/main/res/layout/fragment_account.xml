@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".mainFragments.AccountFragment">
+
+    <ImageView
+        android:id="@+id/imageViewProfile"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="16dp"
+        android:background="#00FBFBFB"
+        android:src="@drawable/ic_profile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewMail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="TextView"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewProfile"
+        app:layout_constraintStart_toStartOf="@+id/imageViewProfile"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewProfile" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonRate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:text="Rate"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:backgroundTint="#FF5722"
+        app:cornerRadius="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMail" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonContribute"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:text="Contribute"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:backgroundTint="#FF5722"
+        app:cornerRadius="100dp"
+        app:layout_constraintEnd_toEndOf="@+id/buttonRate"
+        app:layout_constraintStart_toStartOf="@+id/buttonRate"
+        app:layout_constraintTop_toBottomOf="@+id/buttonRate" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonAbout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:text="About"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:backgroundTint="#FF5722"
+        app:cornerRadius="100dp"
+        app:layout_constraintEnd_toEndOf="@+id/buttonContribute"
+        app:layout_constraintStart_toStartOf="@+id/buttonContribute"
+        app:layout_constraintTop_toBottomOf="@+id/buttonContribute" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonSignout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:text="Sign out"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:backgroundTint="#FF5722"
+        app:cornerRadius="100dp"
+        app:layout_constraintEnd_toEndOf="@+id/buttonAbout"
+        app:layout_constraintStart_toStartOf="@+id/buttonAbout"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAbout" />
+</androidx.constraintlayout.widget.ConstraintLayout>
